@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(253, 253, 253);
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#navigation{
+    float: right;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a, #avatar{
+    margin-left: 20px;
+}
+
+#googleApps{
+    position: relative;
+    top: 5px;
+    margin-left: 20px;
+}
+
+#googleBody{
+    margin: auto;
+    padding-top: 25%;
+    width: 70%;
+}
