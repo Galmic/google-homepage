@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="icon" href="img/google_tab.png">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
         <title>Google</title>
     </head>
     <body>
-        <nav id="navigation">
-            <ul id="nav">
+
+        <nav>
+            <ul>
                 <li><a>Gmail</a></li>
                 <li><a>Images</a></li>
-                <a id="googleApps"><img src="img/google_apps.jpeg"  alt="Google Apps" width="20" height="20"></a>   
-                <a id="avatar">Sign In</a>
+                <li><a><img src="img/google_apps.jpeg"  alt="Google Apps" width="20" height="20"></a></li>   
+                <li><a href="#"><button class="SignInButton">Sign In</button></a></li>
             </ul>
         </nav>
         
-        <div id="googleBody">
+        <div class="googleBody">
             <img src="img/google_logo.png" class="googleLogo" alt="Google Apps">
-            <input type="text" placeholder="Search.." id="searchBar">
+
+            <div class="search">
+                <input type="text" class="searchBar" title="Search">
+                <!--<a href="#"><img src="img/google_mic.png" class="voice" alt="Google Apps" title="Search by voice"></a>
+            -->          </div>
+            
             <div class="spanArea">
-                <span>Google Search</span>
-                <span class="spanSpace">I'm Feeling Lucky</span>
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
             </div>    
             
-            <p class="language">Google offered in: <a href="#">Filipino</a> <a href="#">Cebuano</a></p>
+            <p class="language">Google offered in: <a href="#">Filipino &nbsp</a> <a href="#">Cebuano</a></p>
             
         </div>
-        <p id="country">Philippines</p>
+
+        <p class="country">Philippines</p>
+
         <footer>
-            <ul id="aabh">
+            <ul class="aabh">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Advertising</a></li>
                 <li><a href="#">Business</a></li>
                 <li><a href="#">How Search Works</a></li>
             </ul>
-
-            <ul id="pts">
+            <div></div>
+            <ul class="pts">
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Settings</a></li>
